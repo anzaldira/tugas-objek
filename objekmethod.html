@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="p"></p>
+   <p id="i"></p>
+   
+   <script>
+       //Program 1
+       var person = {
+           FirstName: " Dimas ",
+           Lastname: " Rizki ",
+           id: 6655,
+       };
+       person.name = function() {
+        return this.FirstName+""+this.Lastname;
+       };
+
+       document.getElementById("p").innerHTML =
+       "Nama Aku Adalah" + person.name();
+
+       //Program 2
+       var pekerja = {
+           FirstName2: " Ajis ",
+           Lastname2: " Saepuloh ",
+           id: 6789,
+       };
+       pekerja.name = function() {
+        return this.FirstName2+""+this.Lastname2;
+       };
+       document.getElementById("i").innerHTML =
+       "Nama Pekerja" + pekerja.name();
+
+   </script>
+</body>
+</html>
+</body>
+</html>
